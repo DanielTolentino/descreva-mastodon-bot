@@ -16,7 +16,7 @@ const M = new Mastodon({
   client_secret: process.env.CLIENT_SECRET,
   access_token: process.env.ACCESS_TOKEN,
   timeout_ms: 60 * 1000,
-  api_url: 'https://botsin.space/api/v1/',
+  api_url: 'https://mas.to/api/v1/',
 });
 const stream = M.stream('streaming/user');
 let cont = 0;
